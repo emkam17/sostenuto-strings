@@ -1,0 +1,162 @@
+/* scripts */
+.stick {
+  position: fixed;
+  top: relative;
+  width: 100%;
+  transition-delay: 0s;
+}
+
+.stick + .content {
+  padding-top: 74px;
+}
+
+/* body */
+
+body {
+  background-color: #fcfcfc;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px;
+  font-size: 14pt;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-position: 55%;
+  background-position-y: 15%;
+}
+
+#header_id {
+  background-color: rgba(253, 253, 253, 0.8);
+  display: flex;
+  flex-direction: row;
+  padding-top: 4px;
+  width: 100%;
+  height: 70px;
+}
+
+#logo img {
+  display: block;
+  height: 60px;
+  position: absolute;
+  padding-top: 2px;
+  left: 48.5%;
+}
+
+.nav-left {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-left: 300px;
+  text-align: center;
+}
+
+.nav-right {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-right: 300px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+.page-name {
+  flex: 1;
+  position: relative;
+}
+
+.page-name {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12pt;
+}
+
+.page-name a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+#header_id .page-name a:hover {
+  color: #1ec66c;
+}
+
+.page-name a:visited {
+  color: #000;
+}
+
+h1 {
+  font-family: "Delius Swash Caps", cursive;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Delius Swash Caps", cursive;
+}
+
+.content {
+  margin: 0px 100px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+/* landing */
+.landing {
+  display: flex;
+  padding: 30px 0px 80px 0px;
+}
+.landing img {
+  height: 43%;
+  width: 43%;
+}
+
+.landing-text {
+  margin: 85px 30px;
+}
+
+.landing p {
+  font-size: 16pt;
+}
+
+.section {
+  padding: 100px 100px;
+}
+
+/* footer */
+#footer {
+  display: flex;
+  background-color: #141414;
+  color: white;
+  text-align: center;
+  padding: 40px 0px;
+  height: 60px;
+}
+
+#footer img {
+  height: 60px;
+  margin-top: 8px;
+}
+
+.dark-logo {
+  flex: 1;
+  display: flex;
+  text-align: left;
+  margin-left: 100px;
+  /* margin: 0px 0px 20px 40px; */
+}
+
+.dark-logo h3 {
+  margin-left: 10px;
+}
+
+.copyright {
+  flex: 1;
+  text-align: right;
+  margin-right: 100px;
+}
