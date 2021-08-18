@@ -17,10 +17,10 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0px 0px;
   font-size: 14pt;
-  background-image: url("images/background.png");
+  background-image: url("images/background-2.png");
   background-repeat: no-repeat;
-  background-position: 55%;
-  background-position-y: 15%;
+  background-position: 50%;
+  background-position-y: 48%;
 }
 
 #header_id {
@@ -46,7 +46,7 @@ body {
   flex-direction: row;
   padding-top: 20px;
   padding-right: 70px;
-  padding-left: 300px;
+  padding-left: 250px;
   text-align: center;
 }
 
@@ -55,9 +55,13 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 20px;
-  padding-right: 300px;
+  padding-right: 250px;
   padding-left: 70px;
   text-align: center;
+}
+
+.icon {
+  display: none;
 }
 
 .page-name {
@@ -87,6 +91,7 @@ body {
 
 h1 {
   font-family: "Delius Swash Caps", cursive;
+  padding: 10px 0px;
 }
 
 h2 {
@@ -99,7 +104,7 @@ h3 {
 }
 
 .content {
-  margin: 0px 100px;
+  margin: 0px 100px 100px 100px;
 }
 
 p {
@@ -117,7 +122,7 @@ p {
 }
 
 .landing-text {
-  margin: 85px 30px;
+  margin: 80px 30px;
 }
 
 .landing p {
@@ -125,10 +130,52 @@ p {
 }
 
 .section {
-  padding: 100px 100px;
+  padding: 100px 100px 10px 100px;
 }
 
-/* footer */
+/* BUTTON */
+button {
+  margin-top: 10px;
+  height: 50px;
+  width: 160px;
+  color: #2ea41a;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #fdfdfd;
+  border: 2px solid;
+  border-radius: 6pt;
+  border-color: #2ea41a;
+  transition: 0.3s ease-in-out;
+  justify-content: end;
+}
+
+/* PARTNERS */
+.donors {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+#paco-img {
+  padding: 0px 20px 0px 0px;
+  width: 40%;
+  height: 40%;
+}
+
+#sfco-img {
+  padding: 0px 0px 0px 20px;
+  width: 25%;
+  height: 40%;
+}
+
+button:hover {
+  background-color: #2ea41a;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* FOOTER */
 #footer {
   display: flex;
   background-color: #141414;
@@ -159,4 +206,152 @@ p {
   flex: 1;
   text-align: right;
   margin-right: 100px;
+}
+
+/* mobile version */
+@media (max-width: 800px) {
+  body {
+    margin: 0px 0px;
+    font-size: 12pt;
+    background-repeat: repeat;
+    background-position: 55%;
+    background-position-y: 15%;
+  }
+
+  #header_id {
+    background-color: rgba(253, 253, 253, 0.8);
+    display: inline-block;
+    flex-direction: row;
+    padding-top: 4px;
+    width: 100%;
+    height: 70px;
+  }
+
+  #logo img {
+    display: inline-block;
+    height: 60px;
+    position: absolute;
+    padding-top: 5px;
+    left: 5%;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .nav-left {
+    flex: 0;
+    display: block;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .nav-right {
+    flex: 0;
+    display: block;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .icon {
+    padding-top: 10px;
+    padding-right: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .page-name {
+    flex: 1;
+    position: relative;
+  }
+
+  .page-name {
+    letter-spacing: 1px;
+    font-size: 12pt;
+  }
+
+  h1 {
+    font-family: "Delius Swash Caps", cursive;
+  }
+
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-family: "Delius Swash Caps", cursive;
+  }
+
+  .content {
+    margin: 0px 10px;
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+  /* landing */
+  .landing {
+    display: block;
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+  }
+
+  .landing img {
+    height: 80%;
+    width: 80%;
+  }
+
+  .landing-text {
+    margin: 10px 4px;
+    text-align: left;
+  }
+
+  .landing p {
+    font-size: 13pt;
+  }
+
+  .section {
+    padding: 40px 10px;
+  }
+
+  /* footer */
+  #footer {
+    display: flex;
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+    height: 60px;
+  }
+
+  #footer img {
+    height: 60px;
+    margin-top: 8px;
+  }
+
+  .dark-logo {
+    flex: 1;
+    display: flex;
+    text-align: left;
+    margin-left: 100px;
+    /* margin: 0px 0px 20px 40px; */
+  }
+
+  .dark-logo h3 {
+    margin-left: 10px;
+  }
+
+  .copyright {
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+  }
 }

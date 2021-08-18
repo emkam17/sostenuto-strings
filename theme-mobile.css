@@ -1,0 +1,6 @@
+/* mobile version */
+@media (max-width: 800px) {
+  body {
+    font-size: 10pt;
+  }
+}
