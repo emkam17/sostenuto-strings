@@ -150,6 +150,12 @@ button {
   justify-content: end;
 }
 
+button:hover {
+  background-color: #2ea41a;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
 /* PARTNERS */
 .donors {
   display: flex;
@@ -167,12 +173,6 @@ button {
   padding: 0px 0px 0px 20px;
   width: 25%;
   height: 40%;
-}
-
-button:hover {
-  background-color: #2ea41a;
-  color: white;
-  transition: 0.3s ease-in-out;
 }
 
 /* FOOTER */
@@ -210,12 +210,15 @@ button:hover {
 
 /* mobile version */
 @media (max-width: 800px) {
+  .stick + .content {
+    padding-top: 40px;
+  }
+
   body {
     margin: 0px 0px;
-    font-size: 12pt;
-    background-repeat: repeat;
-    background-position: 55%;
-    background-position-y: 15%;
+    font-size: 11pt;
+    background-position: 30%;
+    background-position-y: 20%;
   }
 
   #header_id {
@@ -235,35 +238,46 @@ button:hover {
     left: 5%;
   }
 
-  .navLinks {
+  #navLinksL {
+    display: none;
+  }
+
+  #navLinksR {
     display: none;
   }
 
   .nav-left {
     flex: 0;
-    display: block;
-    padding-top: 0px;
+    /* display: block; */
+    display: none;
+    padding-top: 70px;
     padding-right: 0px;
     padding-left: 0px;
+    background-color: rgba(253, 253, 253, 0.8);
     text-align: center;
   }
 
   .nav-right {
     flex: 0;
-    display: block;
+    /* display: block; */
+    display: none;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    background-color: rgba(253, 253, 253, 0.8);
     text-align: center;
   }
 
   .icon {
-    padding-top: 10px;
-    padding-right: 20px;
-    display: block;
+    padding-top: 20px;
+    padding-right: 30px;
+    /* display: block; */
+    display: none;
     position: absolute;
+    font-size: 20px;
     right: 0;
     top: 0;
+    color: #077612;
   }
 
   .page-name {
@@ -274,27 +288,16 @@ button:hover {
   .page-name {
     letter-spacing: 1px;
     font-size: 12pt;
+    padding: 5px 0px;
   }
 
   h1 {
-    font-family: "Delius Swash Caps", cursive;
-  }
-
-  h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-  }
-
-  h3 {
-    font-family: "Delius Swash Caps", cursive;
+    font-size: 24px;
+    padding: 0px 0px;
   }
 
   .content {
     margin: 0px 10px;
-  }
-
-  p {
-    line-height: 1.5em;
   }
 
   /* landing */
@@ -315,43 +318,58 @@ button:hover {
   }
 
   .landing p {
-    font-size: 13pt;
+    font-size: 12pt;
   }
 
   .section {
-    padding: 40px 10px;
+    padding: 20px 10px;
+  }
+
+  button {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #2ea41a;
+    border: 0px solid;
+    border-radius: 6pt;
+    /* border-color: #2ea41a; */
+    box-shadow: 0px 2px 4px #969696;
   }
 
   /* footer */
   #footer {
-    display: flex;
-    background-color: #141414;
-    color: white;
+    display: inline-block;
     text-align: center;
     padding: 40px 0px;
-    height: 60px;
+    height: 80px;
+    width: 100%;
   }
 
   #footer img {
     height: 60px;
-    margin-top: 8px;
+    margin-top: 0px;
+    margin-right: 10px;
   }
 
   .dark-logo {
-    flex: 1;
     display: flex;
-    text-align: left;
-    margin-left: 100px;
-    /* margin: 0px 0px 20px 40px; */
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 10px;
   }
 
   .dark-logo h3 {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   .copyright {
     flex: 1;
-    text-align: right;
-    margin-right: 100px;
+    justify-content: center;
+    text-align: center;
+    color: #8b8b8b;
+    margin-right: 0px;
   }
 }
