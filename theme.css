@@ -165,14 +165,20 @@ button:hover {
 
 #paco-img {
   padding: 0px 20px 0px 0px;
-  width: 40%;
+  width: 30%;
   height: 40%;
 }
 
 #sfco-img {
   padding: 0px 0px 0px 20px;
-  width: 25%;
+  width: 20%;
   height: 40%;
+}
+
+#sfcm-img {
+  padding: 0px 0px 0px 30px;
+  width: 35%;
+  height: 50%;
 }
 
 /* FOOTER */
