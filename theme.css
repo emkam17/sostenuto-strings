@@ -133,9 +133,31 @@ p {
   padding: 100px 100px 10px 100px;
 }
 
+/* ABOUT */
+.about-flex{
+  display: flex;
+}
+
+.about-box1{
+  width: 75%;
+}
+
+.about-box2{
+  width: 25%;
+  margin: 0px 60px;
+}
+
+#josiah{
+  display: flex;
+  border-radius: 20px;
+  height: 90%;
+  width: 100%;
+}
+
 /* BUTTON */
 button {
   margin-top: 10px;
+  margin-bottom: 20px;
   height: 50px;
   width: 160px;
   color: #2ea41a;
@@ -329,6 +351,26 @@ button:hover {
 
   .section {
     padding: 20px 10px;
+  }
+
+  .about-flex{
+    display: block;
+  }
+  
+  .about-box1{
+    width: 100%;
+  }
+  
+  .about-box2{
+    width: 100%;
+    padding: 10px 0px;
+  }
+  
+  #josiah{
+    display: flex;
+    border-radius: 20px;
+    height: 50%;
+    width: 55%;
   }
 
   button {
