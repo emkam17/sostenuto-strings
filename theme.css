@@ -97,6 +97,7 @@ h1 {
 h2 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  margin-top: 50px;
 }
 
 h3 {
@@ -156,7 +157,7 @@ p {
 
 /* BUTTON */
 button {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 20px;
   height: 50px;
   width: 160px;
@@ -178,7 +179,7 @@ button:hover {
   transition: 0.3s ease-in-out;
 }
 
-/* PARTNERS */
+/* PARTNERS & RECIPIENTS */
 .donors {
   display: flex;
   padding-top: 20px;
@@ -201,6 +202,24 @@ button:hover {
   padding: 0px 0px 0px 30px;
   width: 35%;
   height: 50%;
+}
+
+#bacelar-img {
+  padding: 0px 0px 0px 30px;
+  width: 55%;
+  height: 70%;
+}
+
+#paterson-img {
+  padding: 0px 0px 0px 30px;
+  width: 35%;
+  height: 50%;
+}
+
+#elm-img {
+  padding: 0px 0px 0px 30px;
+  width: 15%;
+  height: 35%;
 }
 
 /* FOOTER */
