@@ -189,63 +189,69 @@ button:hover {
 
 #paco-img {
   padding: 0px 20px 0px 0px;
-  width: 30%;
-  height: 40%;
+  width: 15%;
+  height: 25%;
 }
 
 #sfco-img {
   padding: 0px 0px 0px 20px;
-  width: 20%;
-  height: 40%;
+  width: 10%;
+  height: 30%;
 }
 
 #sfcm-img {
   padding: 0px 0px 0px 30px;
-  width: 35%;
-  height: 50%;
+  width: 20%;
+  height: 35%;
 }
 
 #njys-img {
   padding: 0px 0px 0px 30px;
-  width: 35%;
-  height: 50%;
+  width: 18%;
+  height: 33%;
 }
 
 #jcc-img {
   padding: 0px 0px 0px 30px;
-  width: 35%;
-  height: 50%;
+  width: 18%;
+  height: 33%;
 }
 
 #princeton-violins-img {
   padding: 0px 0px 0px 30px;
-  width: 35%;
-  height: 50%;
+  width: 15%;
+  height: 30%;
 }
 
 #the-music-shop-img {
   padding: 0px 0px 0px 30px;
-  width: 25%;
-  height: 40%;
+  width: 20%;
+  height: 35%;
 }
 
 #bacelar-img {
   padding: 0px 0px 0px 30px;
-  width: 55%;
-  height: 70%;
+  width: 35%;
+  height: 50%;
 }
 
 /*recipients*/
 #paterson-img {
   padding: 0px 0px 0px 30px;
-  width: 35%;
-  height: 50%;
+  width: 20%;
+  height: 35%;
 }
 
 #elm-img {
   padding: 0px 0px 0px 30px;
-  width: 15%;
-  height: 35%;
+  width: 8%;
+  height: 28%;
+}
+
+#accra-img {
+  padding: 0px 0px 0px 30px;
+  width: 11%;
+  height: 30%;
 }
 
 /* FOOTER */
