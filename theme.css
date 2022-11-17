@@ -124,15 +124,28 @@ p {
 }
 
 .landing-text {
-  margin: 50px 30px;
+  margin: 10px 30px;
 }
 
 .landing p {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 .section {
   padding: 100px 100px 10px 100px;
+}
+
+.elmkids{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.elmkids img{
+  justify-self: center;
+  /* height: 50%; */
+  width: 100%;
 }
 
 /* ABOUT */
