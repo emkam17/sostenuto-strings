@@ -177,6 +177,28 @@ figcaption {
   width: 100%;
 }
 
+/* DONATE */
+.donate-flex{
+  display: flex;
+}
+
+.donate-box1{
+  width: 30%;
+  margin: 0px 0px;
+}
+
+.donate-box2{
+  width: 70%;
+}
+
+#donate-box{
+  display: flex;
+  border-radius: 20px;
+  height: 90%;
+  width: 90%;
+}
+
+
 /* BUTTON */
 button {
   margin-top: 0px;
@@ -241,14 +263,20 @@ a #cornell-img {
 
 a #the-music-shop-img {
   padding: 0px 0px 0px 30px;
-  width: 220px;
+  width: 210px;
   height: 70px;
+}
+
+a #sonostrings-img {
+  padding: 0px 0px 0px 30px;
+  width: 90px;
+  height: 90px;
 }
 
 a #princeton-violins-img {
   padding: 0px 0px 0px 30px;
-  width: 180px;
-  height: 100px;
+  width: 170px;
+  height: 90px;
 }
 
 a #njys-img {
@@ -304,6 +332,12 @@ a #trenton-img {
   padding: 0px 0px 0px 30px;
   width: 270px;
   height: 80px;
+}
+
+a #castillero-img {
+  padding: 0px 0px 0px 30px;
+  width: 90px;
+  height: 90px;
 }
 
 /* FOOTER */
