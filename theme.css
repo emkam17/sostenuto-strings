@@ -131,6 +131,10 @@ p {
   font-size: 14pt;
 }
 
+p strong{
+ color:#2ea41a;
+}
+
 .section {
   padding: 100px 100px 10px 100px;
 }
