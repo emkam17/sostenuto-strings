@@ -115,7 +115,7 @@ p {
 /* landing */
 .landing {
   display: flex;
-  padding: 80px 0px 80px 0px;
+  padding: 40px 0px 80px 0px;
 }
 
 .landing img {
